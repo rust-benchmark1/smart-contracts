@@ -158,3 +158,183 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Disclaimer
 
 The code examples in this repository demonstrate vulnerabilities for educational purposes. They should not be used in production environments.
+
+
+# Vulnerabilities Overview
+
+## /src/vulnerabilities/access_control.rs
+**Example 1**   
+- **Source:** Line 114 
+- **Sink:** Line 122 
+
+**Example 2** 
+- **Source:** Line 128  
+- **Sink:** Line 146 
+
+**Example 3**  
+- **Source:** Line 152
+- **Sink:** Line 170 
+
+---
+
+## /src/vulnerabilities/account_confusion.rs
+**Example 1**  
+- **Source:** Line 133   
+- **Sink:** Line 159 
+
+---
+
+## /src/vulnerabilities/denial_of_service.rs
+**Example 1**   
+- **Source:** Line 111 
+- **Sink:** Line 127 
+
+**Example 2** 
+- **Source:** Line 111  
+- **Sink:** Line 131
+
+**Example 3** 
+- **Source/Sink:** Line 149  
+
+---
+
+## /src/vulnerabilities/flash_loan.rs
+**Example 1**
+- **Source:** Line 181  
+- **Sink:** Line 206
+
+**Example 2**
+- **Source:** Line 220 
+- **Sink:** Line 249
+
+---
+
+## /src/vulnerabilities/front_running.rs
+**Example 1**  
+- **Source:** Line 138 
+- **Sink:** Line 172 
+
+---
+
+## /src/vulnerabilities/illicit_fee_collection.rs
+**Example 1**  
+- **Source:** Line 133 
+- **Sink:** Line 141 
+
+**Example 2**  
+- **Source:** Line 147 
+- **Sink:** Line 159 
+
+**Example 3**  
+- **Source:** Line 165 
+- **Sink:** Line 199 
+
+---
+
+## /src/vulnerabilities/inadequate_events.rs
+**Example 1**  
+- **Source:** Line 124 
+- **Sink:** Line 131 
+
+**Example 2**  
+- **Source:** Line 149 
+- **Sink:** Line 137 
+
+---
+
+## /src/vulnerabilities/logic_errors.rs
+**Example 1**  
+- **Source:** Line 152 
+- **Sink:** Line 166 
+
+**Example 2**  
+- **Source:** Line 172 
+- **Sink:** Line 198
+
+**Example 3**  
+- **Source:** Line 205 
+- **Sink:** Line 214
+
+**Example 4**  
+- **Source:** Line 205 
+- **Sink:** Line 229
+
+**Example 5**  
+- **Source:** Line 237 
+- **Sink:** Line 243
+
+**Example 6**  
+- **Source:** Line 237 
+- **Sink:** Line 249
+
+---
+
+## /src/vulnerabilities/oracle_manipulation.rs
+**Example 1**  
+- **Source:** Line 144
+- **Sink:** Line 152
+
+---
+
+## /src/vulnerabilities/overflow.rs
+**Example 1**
+- **Source:** Line 99 
+- **Sink:** Line 104  
+
+**Example 2**  
+- **Source:** Line 110
+- **Sink:** Line 125  
+
+---
+
+## /src/vulnerabilities/random_manipulation.rs
+**Example 1** 
+- **Source/Sink:** Line 164  
+
+**Example 2**
+- **Source:** Line 177  
+- **Sink:** Line 184
+
+**Example 3**
+- **Source:** Line 211  
+- **Sink:** Line 216
+
+---
+
+## /src/vulnerabilities/reentrancy.rs
+**Example 1**  
+- **Source:** Line 97 
+- **Sink:** Line 112  
+
+---
+
+## /src/vulnerabilities/signature_verification.rs
+**Example 1**  
+- **Source:** Line 103 
+- **Sink:** Line 125
+
+---
+
+## /src/vulnerabilities/storage_management.rs
+**Example 1**  
+- **Source:** Line 152
+- **Sink:** Line 176
+
+**Example 2**  
+- **Source/Sink:** Line 152
+- **Sink:** Line 196 
+
+---
+
+## /src/vulnerabilities/unchecked_inputs.rs
+**Example 1** 
+- **Source:** Line 99 
+- **Sink:** Line 116
+
+**Example 2** 
+- **Source:** Line 129  
+- **Sink:** Line 140 
+
+---
+
+
