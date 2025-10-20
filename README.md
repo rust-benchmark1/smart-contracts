@@ -163,172 +163,172 @@ The code examples in this repository demonstrate vulnerabilities for educational
 # Vulnerabilities Overview
 
 ## /src/vulnerabilities/access_control.rs
-**Example 1** - CWE-285 - Not supported
+**Example 1** - CWE-285:Improper Authorization (Not supported)
 - **Source:** Line 114 
 - **Sink:** Line 122 
 
-**Example 2** - CWE-285 - Not supported
+**Example 2** - CWE-285:Improper Authorization (Not supported)
 - **Source:** Line 128  
 - **Sink:** Line 146 
 
-**Example 3** - CWE-285 - Not supported
+**Example 3** - CWE-285:Improper Authorization (Not supported)
 - **Source:** Line 152
 - **Sink:** Line 170 
 
 ---
 
 ## /src/vulnerabilities/account_confusion.rs
-**Example 1** - CWE-346 - Not supported
+**Example 1** - CWE-285:Improper Authorization (Not supported)
 - **Source:** Line 133   
 - **Sink:** Line 159 
 
 ---
 
 ## /src/vulnerabilities/denial_of_service.rs
-**Example 1** - CWE-400 - Not supported
+**Example 1** - CWE-400:Uncontrolled Resource Consumption (Not supported)
 - **Source:** Line 111 
 - **Sink:** Line 127 
 
-**Example 2** - CWE-400 - Not supported
+**Example 2** - CWE-400:Uncontrolled Resource Consumption (Not supported)
 - **Source:** Line 111  
 - **Sink:** Line 131
 
-**Example 3** - CWE-400 - Not supported
+**Example 3** - CWE-400:Uncontrolled Resource Consumption (Not supported)
 - **Source:** Line 137  
 - **Sink:** Line 151  
 
 ---
 
 ## /src/vulnerabilities/flash_loan.rs
-**Example 1** - CWE-840 - Not supported
+**Example 1** - CWE-841:Improper Enforcement of Behavioral Workflow (Not supported)
 - **Source:** Line 181  
 - **Sink:** Line 206
 
-**Example 2** - CWE-345 - Not supported
+**Example 2** - CWE-345:Insufficient Verification of Data Authenticity (Not supported)
 - **Source:** Line 220 
-- **Sink:** Line 249
+- **Sink:** Line 227
 
 ---
 
 ## /src/vulnerabilities/front_running.rs
-**Example 1** - CWE-362 - Not supported
+**Example 1** - CWE-359:Exposure of Private Personal Information to an Unauthorized Actor (Not supported)
 - **Source:** Line 138 
-- **Sink:** Line 172 
+- **Sink:** Line 164 
 
 ---
 
 ## /src/vulnerabilities/illicit_fee_collection.rs
-**Example 1** - CWE-285 - Not supported
+**Example 1** - CWE-285:Improper Authorization (Not supported)
 - **Source:** Line 133 
 - **Sink:** Line 141 
 
-**Example 2** - CWE-840 - Not supported
+**Example 2** - CWE-1284:Improper Validation of Specified Quantity in Input (Not supported)
 - **Source:** Line 147 
 - **Sink:** Line 159 
 
-**Example 3** - CWE-840 - Not supported
+**Example 3** - CWE-1284:Improper Validation of Specified Quantity in Input (Not supported)
 - **Source:** Line 165 
-- **Sink:** Line 199 
+- **Sink:** Line 195 
 
 ---
 
 ## /src/vulnerabilities/inadequate_events.rs
-**Example 1** - CWE-778 - Not supported
+**Example 1** - CWE-778:Insufficient Logging (Not supported)
 - **Source:** Line 124 
 - **Sink:** Line 131 
 
-**Example 2** - CWE-778 - Not supported
+**Example 2** - CWE-778:Insufficient Logging (Not supported)
 - **Source:** Line 137 
 - **Sink:** Line 149 
 
 ---
 
 ## /src/vulnerabilities/logic_errors.rs
-**Example 1** - CWE-840 - Not supported
+**Example 1** - CWE-703:Improper Check or Handling of Exceptional Conditions (Not supported)
 - **Source:** Line 152 
 - **Sink:** Line 166 
 
-**Example 2** - CWE-840 - Not supported
+**Example 2** - CWE-754:Improper Check for Unusual or Exceptional Conditions (Not supported)
 - **Source:** Line 172 
 - **Sink:** Line 198
 
-**Example 3** - CWE-840 - Not supported 
+**Example 3** - CWE-440:Expected Behavior Violation (Not supported) 
 - **Source:** Line 205 
 - **Sink:** Line 218
 
-**Example 4** - CWE-840 - Not supported
+**Example 4** - CWE-754:Improper Check for Unusual or Exceptional Conditions (Not supported)
 - **Source:** Line 205 
 - **Sink:** Line 227
 
-**Example 5** - CWE-840 - Not supported
+**Example 5** - CWE-705:Incorrect Control Flow Scoping (Not supported)
 - **Source:** Line 237 
-- **Sink:** Line 251
+- **Sink:** Line 262
 
 ---
 
 ## /src/vulnerabilities/oracle_manipulation.rs
-**Example 1** - CWE-345 - Not supported
+**Example 1** - CWE-345:Insufficient Verification of Data Authenticity (Not supported)
 - **Source:** Line 144
 - **Sink:** Line 152
 
 ---
 
 ## /src/vulnerabilities/overflow.rs
-**Example 1** - CWE-190 - Not supported
+**Example 1** - CWE-190:Integer Overflow or Wraparound (Not supported)
 - **Source:** Line 99 
 - **Sink:** Line 104  
 
-**Example 2** - CWE-191 - Not supported
+**Example 2** - CWE-191:Integer Underflow (Wrap or Wraparound) (Not supported)
 - **Source:** Line 110
 - **Sink:** Line 125  
 
 ---
 
 ## /src/vulnerabilities/random_manipulation.rs
-**Example 1** - CWE-330 - Not supported
+**Example 1** - CWE-330:Use of Insufficiently Random Values (Not supported)
 - **Source/Sink:** Line 164  
 
-**Example 2** - CWE-330 - Not supported
+**Example 2** - CWE-330:Use of Insufficiently Random Values (Not supported)
 - **Source:** Line 177  
 - **Sink:** Line 184
 
-**Example 3** - CWE-330 - Not supported
+**Example 3** - CWE-330:Use of Insufficiently Random Values (Not supported)
 - **Source:** Line 211  
 - **Sink:** Line 216
 
 ---
 
 ## /src/vulnerabilities/reentrancy.rs
-**Example 1** - CWE-1265 - Not supported
+**Example 1** - CWE-696:Incorrect Behavior Order (Not supported)
 - **Source:** Line 97 
 - **Sink:** Line 112  
 
 ---
 
 ## /src/vulnerabilities/signature_verification.rs
-**Example 1** - CWE-345 - Not supported
+**Example 1** - CWE-345:Insufficient Verification of Data Authenticity (Not supported)
 - **Source:** Line 103 
 - **Sink:** Line 120
 
 ---
 
 ## /src/vulnerabilities/storage_management.rs
-**Example 1** - CWE-284 - Not supported
+**Example 1** - CWE-1284:Improper Validation of Specified Quantity in Input (Not supported)
 - **Source:** Line 152
 - **Sink:** Line 196
 
-**Example 2** - CWE-119 - Not supported
+**Example 2** - CWE-1284:Improper Validation of Specified Quantity in Input (Not supported)
 - **Source:** Line 176
 - **Sink:** Line 186 
 
 ---
 
 ## /src/vulnerabilities/unchecked_inputs.rs
-**Example 1** - CWE-20 - Not supported
+**Example 1** - CWE-20:Improper Input Validation (Not supported)
 - **Source:** Line 99 
 - **Sink:** Line 116
 
-**Example 2** - CWE-20 - Not supported
+**Example 2** - CWE-20:Improper Input Validation (Not supported)
 - **Source:** Line 129  
 - **Sink:** Line 140 
 
