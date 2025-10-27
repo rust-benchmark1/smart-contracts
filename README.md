@@ -274,11 +274,11 @@ The code examples in this repository demonstrate vulnerabilities for educational
 ---
 
 ## /src/vulnerabilities/overflow.rs
-**Example 1** - CWE-190:Integer Overflow or Wraparound (Not supported)
+**Example 1** - CWE-190:Integer Overflow or Wraparound (Not supported) - We could implement coverage for CWE-190.
 - **Source:** Line 99 
 - **Sink:** Line 104  
 
-**Example 2** - CWE-191:Integer Underflow (Wrap or Wraparound) (Not supported)
+**Example 2** - CWE-191:Integer Underflow (Wrap or Wraparound) (Not supported) - We could implement coverage for CWE-191.
 - **Source:** Line 110
 - **Sink:** Line 125  
 
